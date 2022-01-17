@@ -1,0 +1,86 @@
+# Markdown, règles de syntaxe
+
+## Titre de niveau 2
+
+### Titre de niveau 3
+
+Ceci est un texte normal.  
+On revient donc à la ligne.
+
+Sinon on fait entrée tout court mais dans ce cas là il y aura un espace entre les deux lignes  
+Cela dépend donc comment on veut que le texte s'affiche 
+
+## Décoration de texte
+
+_Ce texte est en italique_
+*Celui-ci aussi*
+
+__Ce texte est en gras__
+**Celui-ci aussi**
+
+**on peut mixer l'italique __et le gras__**
+
+## Snippets
+
+`Ce code *n'est pas __interprété__*`
+
+```Ce block de texte
+ne sera pas interprété non plus
+Les sauts de lignes seront conservés
+```
+
+```html
+<h1>Hello World !</h1>
+```
+
+```js
+//on en reparlera très vite
+console.log(`Hello World !`);
+
+## Citation
+
+> Ceci est une citation  
+> sur plusieurs lignes
+
+---
+
+## Listes
+
+Ma ligne ordonnée : 
+1. 1er élément
+2. 2ème élément
+    1. 1er sous élément
+    2. 2ème sous élément
+3. 3ème élément
+
+---
+
+Ma liste non ordonnée : 
+- 1er élément
+- 2ème élément
+    - 1er sous élément
+
+
+Ma liste de cases à cocher : 
+-[] 1er élément
+-[] 2ème élément
+
+[un lien vers Google(https://www.google.fr)]
+
+## Tableaux
+@
+|Blob blue|Blob red|
+|---|---|
+|nom1|nom2|
+|nom3|nom4|
+|nom5|nom6
+||nom7
+
+
+## Tableaux
+|Blob blue|Blob red|
+|---|---|
+|nom1|nom2|
+|nom3|nom4|
+|nom5|nom6
+||nom7
